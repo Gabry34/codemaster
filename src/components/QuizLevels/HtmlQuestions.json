@@ -1,0 +1,805 @@
+{
+  "HtmlEasy": [
+        {
+          "id": 1,
+          "question": "What is the purpose of the HTML <br> element?",
+          "answer1": "To define a table row",
+          "answer2": "To insert a line break",
+          "answer3": "To create a numbered list",
+          "correctAnswer": "To insert a line break"
+        },
+        {
+          "id": 2,
+          "question": "What does HTML stand for?",
+          "answer1": "Hyper Text Markup Language",
+          "answer2": "Hyperlinks and Text Markup Language",
+          "answer3": "Home Tool Markup Language",
+          "correctAnswer": "Hyper Text Markup Language"
+        },
+        {
+          "id": 3,
+          "question": "Which HTML element is used for creating a hyperlink?",
+          "answer1": "<a>",
+          "answer2": "<link>",
+          "answer3": "<hyperlink>",
+          "correctAnswer": "<a>"
+        },
+        {
+          "id": 4,
+          "question": "What is the correct HTML element for inserting an image?",
+          "answer1": "<img>",
+          "answer2": "<image>",
+          "answer3": "<picture>",
+          "correctAnswer": "<img>"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of the HTML <head> element?",
+          "answer1": "To define the main content of the document",
+          "answer2": "To define the header section of the document",
+          "answer3": "To define the title of the document",
+          "correctAnswer": "To define the header section of the document"
+        },
+        {
+          "id": 6,
+          "question": "Which HTML element is used to define the largest heading?",
+          "answer1": "<h6>",
+          "answer2": "<h1>",
+          "answer3": "<heading>",
+          "correctAnswer": "<h1>"
+        },
+        {
+          "id": 7,
+          "question": "What is the correct HTML element for creating a line break?",
+          "answer1": "<linebreak>",
+          "answer2": "<break>",
+          "answer3": "<br>",
+          "correctAnswer": "<br>"
+        },
+        {
+          "id": 8,
+          "question": "Which HTML element is used to define a table?",
+          "answer1": "<table>",
+          "answer2": "<tab>",
+          "answer3": "<tbl>",
+          "correctAnswer": "<table>"
+        },
+        {
+          "id": 9,
+          "question": "What is the correct HTML for creating a hyperlink that opens in a new tab?",
+          "answer1": "<a href='https://www.example.com' target='_blank'>Link</a>",
+          "answer2": "<a href='https://www.example.com' new-tab>Link</a>",
+          "answer3": "<a href='https://www.example.com' target='new'>Link</a>",
+          "correctAnswer": "<a href='https://www.example.com' target='_blank'>Link</a>"
+        },
+        {
+          "id": 10,
+          "question": "What is the correct HTML element for defining important text?",
+          "answer1": "<i>",
+          "answer2": "<b>",
+          "answer3": "<strong>",
+          "correctAnswer": "<strong>"
+        },
+        {
+            "id": 11,
+            "question": "Which HTML element is used to define a level of importance for content?",
+            "answer1": "<imp>",
+            "answer2": "<importance>",
+            "answer3": "<strong>",
+            "correctAnswer": "<strong>"
+          },
+          {
+            "id": 12,
+            "question": "What is the correct HTML element for inserting a video?",
+            "answer1": "<media>",
+            "answer2": "<video>",
+            "answer3": "<movie>",
+            "correctAnswer": "<video>"
+          },
+          {
+            "id": 13,
+            "question": "In HTML, which tag is used to define a list item?",
+            "answer1": "<li>",
+            "answer2": "<ul>",
+            "answer3": "<ol>",
+            "correctAnswer": "<li>"
+          },
+          {
+            "id": 14,
+            "question": "What is the correct HTML element to define emphasized text?",
+            "answer1": "<em>",
+            "answer2": "<italic>",
+            "answer3": "<strong>",
+            "correctAnswer": "<em>"
+          },
+          {
+            "id": 15,
+            "question": "Which HTML attribute specifies the width of an image?",
+            "answer1": "width",
+            "answer2": "size",
+            "answer3": "height",
+            "correctAnswer": "width"
+          },
+          {
+            "id": 16,
+            "question": "What is the correct HTML element for inserting a line break?",
+            "answer1": "<linebreak>",
+            "answer2": "<br>",
+            "answer3": "<lb>",
+            "correctAnswer": "<br>"
+          },
+          {
+            "id": 17,
+            "question": "What is the correct HTML for creating a hyperlink that links to an email address?",
+            "answer1": "<a href='email@example.com'>Email me</a>",
+            "answer2": "<a href='mailto:email@example.com'>Email me</a>",
+            "answer3": "<mail>email@example.com</mail>",
+            "correctAnswer": "<a href='mailto:email@example.com'>Email me</a>"
+          },
+          {
+            "id": 18,
+            "question": "What does the HTML <canvas> element define?",
+            "answer1": "A container for multimedia content",
+            "answer2": "A container for graphics",
+            "answer3": "A container for JavaScript",
+            "correctAnswer": "A container for graphics"
+          },
+          {
+            "id": 19,
+            "question": "In HTML, which tag is used to define a table header?",
+            "answer1": "<head>",
+            "answer2": "<tableheader>",
+            "answer3": "<th>",
+            "correctAnswer": "<th>"
+          },
+          {
+            "id": 20,
+            "question": "What is the correct HTML for creating a hyperlink?",
+            "answer1": "<a src='https://www.example.com'>Link</a>",
+            "answer2": "<a url='https://www.example.com'>Link</a>",
+            "answer3": "<a href='https://www.example.com'>Link</a>",
+            "correctAnswer": "<a href='https://www.example.com'>Link</a>"
+          },
+          {
+            "id": 21,
+            "question": "What is the correct HTML element for inserting a horizontal rule?",
+            "answer1": "<line>",
+            "answer2": "<hr>",
+            "answer3": "<linebreak>",
+            "correctAnswer": "<hr>"
+          },
+          {
+            "id": 22,
+            "question": "What is the correct HTML for creating a numeric input field?",
+            "answer1": "<input type='number'>",
+            "answer2": "<input type='numeric'>",
+            "answer3": "<input type='text' pattern='[0-9]'>",
+            "correctAnswer": "<input type='number'>"
+          },
+          {
+            "id": 23,
+            "question": "In HTML, which tag is used to define a definition list?",
+            "answer1": "<ol>",
+            "answer2": "<ul>",
+            "answer3": "<dl>",
+            "correctAnswer": "<dl>"
+          },
+          {
+            "id": 24,
+            "question": "What is the correct HTML element for creating a text input field?",
+            "answer1": "<input type='textfield'>",
+            "answer2": "<input type='text'>",
+            "answer3": "<textfield>",
+            "correctAnswer": "<input type='text'>"
+          },
+          {
+            "id": 25,
+            "question": "What is the correct HTML element for inserting an email address?",
+            "answer1": "<a>email@example.com</a>",
+            "answer2": "<mail>email@example.com</mail>",
+            "answer3": "<input type='email' value='email@example.com'>",
+            "correctAnswer": "<input type='email' value='email@example.com'>"
+          },
+          {
+            "id": 26,
+            "question": "Which HTML element defines the title of a work (e.g., a book, a song, or a movie)?",
+            "answer1": "<headline>",
+            "answer2": "<title>",
+            "answer3": "<heading>",
+            "correctAnswer": "<title>"
+          },
+          {
+            "id": 27,
+            "question": "What is the correct HTML element for creating a radio button?",
+            "answer1": "<input type='radio'>",
+            "answer2": "<input type='button'>",
+            "answer3": "<radio>",
+            "correctAnswer": "<input type='radio'>"
+          },
+          {
+            "id": 28,
+            "question": "Which HTML element defines a section in a document?",
+            "answer1": "<section>",
+            "answer2": "<div>",
+            "answer3": "<article>",
+            "correctAnswer": "<section>"
+          },
+          {
+            "id": 29,
+            "question": "What is the correct HTML element for inserting a video?",
+            "answer1": "<media>",
+            "answer2": "<video>",
+            "answer3": "<movie>",
+            "correctAnswer": "<video>"
+          },
+          {
+            "id": 30,
+            "question": "In HTML, which tag is used to define a list item?",
+            "answer1": "<li>",
+            "answer2": "<ul>",
+            "answer3": "<ol>",
+            "correctAnswer": "<li>"
+          },
+          {
+            "id": 31,
+            "question": "What is the correct HTML element to define emphasized text?",
+            "answer1": "<em>",
+            "answer2": "<italic>",
+            "answer3": "<strong>",
+            "correctAnswer": "<em>"
+          },
+          {
+            "id": 32,
+            "question": "Which HTML attribute specifies the width of an image?",
+            "answer1": "width",
+            "answer2": "size",
+            "answer3": "height",
+            "correctAnswer": "width"
+          },
+          {
+            "id": 33,
+            "question": "What is the correct HTML element for inserting a line break?",
+            "answer1": "<linebreak>",
+            "answer2": "<br>",
+            "answer3": "<lb>",
+            "correctAnswer": "<br>"
+          },
+          {
+            "id": 34,
+            "question": "What is the correct HTML for creating a hyperlink that links to an email address?",
+            "answer1": "<a href='email@example.com'>Email me</a>",
+            "answer2": "<a href='mailto:email@example.com'>Email me</a>",
+            "answer3": "<mail>email@example.com</mail>",
+            "correctAnswer": "<a href='mailto:email@example.com'>Email me</a>"
+          },
+          {
+            "id": 35,
+            "question": "What does the HTML <canvas> element define?",
+            "answer1": "A container for multimedia content",
+            "answer2": "A container for graphics",
+            "answer3": "A container for JavaScript",
+            "correctAnswer": "A container for graphics"
+          },
+          {
+            "id": 36,
+            "question": "In HTML, which tag is used to define a table header?",
+            "answer1": "<head>",
+            "answer2": "<tableheader>",
+            "answer3": "<th>",
+            "correctAnswer": "<th>"
+          },
+          {
+            "id": 37,
+            "question": "What is the correct HTML for creating a hyperlink?",
+            "answer1": "<a src='https://www.example.com'>Link</a>",
+            "answer2": "<a url='https://www.example.com'>Link</a>",
+            "answer3": "<a href='https://www.example.com'>Link</a>",
+            "correctAnswer": "<a href='https://www.example.com'>Link</a>"
+          },
+          {
+            "id": 38,
+            "question": "What is the correct HTML element for inserting a horizontal rule?",
+            "answer1": "<line>",
+            "answer2": "<hr>",
+            "answer3": "<linebreak>",
+            "correctAnswer": "<hr>"
+          },
+          {
+            "id": 39,
+            "question": "What is the correct HTML for creating a numeric input field?",
+            "answer1": "<input type='number'>",
+            "answer2": "<input type='numeric'>",
+            "answer3": "<input type='text' pattern='[0-9]'>",
+            "correctAnswer": "<input type='number'>"
+          },
+          {
+            "id": 40,
+            "question": "In HTML, which tag is used to define a definition list?",
+            "answer1": "<ol>",
+            "answer2": "<ul>",
+            "answer3": "<dl>",
+            "correctAnswer": "<dl>"
+          },
+          {
+            "id": 41,
+            "question": "What is the correct HTML element for defining important text?",
+            "answer1": "<i>",
+            "answer2": "<b>",
+            "answer3": "<strong>",
+            "correctAnswer": "<strong>"
+          },
+          {
+            "id": 42,
+            "question": "What is the correct HTML element for creating a checkbox?",
+            "answer1": "<checkbox>",
+            "answer2": "<input type='check'>",
+            "answer3": "<input type='checkbox'>",
+            "correctAnswer": "<input type='checkbox'>"
+          },
+          {
+            "id": 43,
+            "question": "In HTML, which tag is used to define a level of importance for content?",
+            "answer1": "<imp>",
+            "answer2": "<importance>",
+            "answer3": "<strong>",
+            "correctAnswer": "<strong>"
+          },
+          {
+            "id": 44,
+            "question": "What is the correct HTML element for inserting a video?",
+            "answer1": "<media>",
+            "answer2": "<video>",
+            "answer3": "<movie>",
+            "correctAnswer": "<video>"
+          },
+          {
+            "id": 45,
+            "question": "In HTML, which tag is used to define a list item?",
+            "answer1": "<li>",
+            "answer2": "<ul>",
+            "answer3": "<ol>",
+            "correctAnswer": "<li>"
+          },
+          {
+            "id": 46,
+            "question": "What is the correct HTML element to define emphasized text?",
+            "answer1": "<em>",
+            "answer2": "<italic>",
+            "answer3": "<strong>",
+            "correctAnswer": "<em>"
+          },
+          {
+            "id": 47,
+            "question": "Which HTML attribute specifies the width of an image?",
+            "answer1": "width",
+            "answer2": "size",
+            "answer3": "height",
+            "correctAnswer": "width"
+          },
+          {
+            "id": 48,
+            "question": "What is the correct HTML element for inserting a line break?",
+            "answer1": "<linebreak>",
+            "answer2": "<br>",
+            "answer3": "<lb>",
+            "correctAnswer": "<br>"
+          },
+          {
+            "id": 49,
+            "question": "What is the correct HTML for creating a hyperlink that links to an email address?",
+            "answer1": "<a href='email@example.com'>Email me</a>",
+            "answer2": "<a href='mailto:email@example.com'>Email me</a>",
+            "answer3": "<mail>email@example.com</mail>",
+            "correctAnswer": "<a href='mailto:email@example.com'>Email me</a>"
+          },
+          {
+            "id": 50,
+            "question": "What does the HTML <canvas> element define?",
+            "answer1": "A container for multimedia content",
+            "answer2": "A container for graphics",
+            "answer3": "A container for JavaScript",
+            "correctAnswer": "A container for graphics"
+          },
+          {
+            "id": 51,
+            "question": "In HTML, which tag is used to define a table header?",
+            "answer1": "<head>",
+            "answer2": "<tableheader>",
+            "answer3": "<th>",
+            "correctAnswer": "<th>"
+          },
+          {
+            "id": 52,
+            "question": "What is the correct HTML for creating a hyperlink?",
+            "answer1": "<a src='https://www.example.com'>Link</a>",
+            "answer2": "<a url='https://www.example.com'>Link</a>",
+            "answer3": "<a href='https://www.example.com'>Link</a>",
+            "correctAnswer": "<a href='https://www.example.com'>Link</a>"
+          },
+          {
+            "id": 53,
+            "question": "What is the correct HTML element for inserting a horizontal rule?",
+            "answer1": "<line>",
+            "answer2": "<hr>",
+            "answer3": "<linebreak>",
+            "correctAnswer": "<hr>"
+          },
+          {
+            "id": 54,
+            "question": "What is the correct HTML for creating a numeric input field?",
+            "answer1": "<input type='number'>",
+            "answer2": "<input type='numeric'>",
+            "answer3": "<input type='text' pattern='[0-9]'>",
+            "correctAnswer": "<input type='number'>"
+          },
+          {
+            "id": 55,
+            "question": "In HTML, which tag is used to define a definition list?",
+            "answer1": "<ol>",
+            "answer2": "<ul>",
+            "answer3": "<dl>",
+            "correctAnswer": "<dl>"
+          },
+          {
+            "id": 56,
+            "question": "What is the correct HTML element for creating a text input field?",
+            "answer1": "<input type='textfield'>",
+            "answer2": "<input type='text'>",
+            "answer3": "<textfield>",
+            "correctAnswer": "<input type='text'>"
+          },
+          {
+            "id": 57,
+            "question": "What is the correct HTML element for inserting an email address?",
+            "answer1": "<a>email@example.com</a>",
+            "answer2": "<mail>email@example.com</mail>",
+            "answer3": "<input type='email' value='email@example.com'>",
+            "correctAnswer": "<input type='email' value='email@example.com'>"
+          },
+          {
+            "id": 58,
+            "question": "Which HTML element defines the title of a work (e.g., a book, a song, or a movie)?",
+            "answer1": "<headline>",
+            "answer2": "<title>",
+            "answer3": "<heading>",
+            "correctAnswer": "<title>"
+          },
+          {
+            "id": 59,
+            "question": "What is the correct HTML element for creating a radio button?",
+            "answer1": "<input type='radio'>",
+            "answer2": "<input type='button'>",
+            "answer3": "<radio>",
+            "correctAnswer": "<input type='radio'>"
+          },
+          {
+            "id": 60,
+            "question": "Which HTML element defines a section in a document?",
+            "answer1": "<section>",
+            "answer2": "<div>",
+            "answer3": "<article>",
+            "correctAnswer": "<section>"
+          },
+          {
+            "id": 61,
+            "question": "What is the correct HTML element for inserting a video?",
+            "answer1": "<media>",
+            "answer2": "<video>",
+            "answer3": "<movie>",
+            "correctAnswer": "<video>"
+          },
+          {
+            "id": 62,
+            "question": "In HTML, which tag is used to define a list item?",
+            "answer1": "<li>",
+            "answer2": "<ul>",
+            "answer3": "<ol>",
+            "correctAnswer": "<li>"
+          },
+          {
+            "id": 63,
+            "question": "What is the correct HTML element to define emphasized text?",
+            "answer1": "<em>",
+            "answer2": "<italic>",
+            "answer3": "<strong>",
+            "correctAnswer": "<em>"
+          },
+          {
+            "id": 64,
+            "question": "Which HTML attribute specifies the width of an image?",
+            "answer1": "width",
+            "answer2": "size",
+            "answer3": "height",
+            "correctAnswer": "width"
+          },
+          {
+            "id": 65,
+            "question": "What is the correct HTML element for inserting a line break?",
+            "answer1": "<linebreak>",
+            "answer2": "<br>",
+            "answer3": "<lb>",
+            "correctAnswer": "<br>"
+          },
+          {
+            "id": 66,
+            "question": "What is the correct HTML for creating a hyperlink that links to an email address?",
+            "answer1": "<a href='email@example.com'>Email me</a>",
+            "answer2": "<a href='mailto:email@example.com'>Email me</a>",
+            "answer3": "<mail>email@example.com</mail>",
+            "correctAnswer": "<a href='mailto:email@example.com'>Email me</a>"
+          },
+          {
+            "id": 67,
+            "question": "What does the HTML <canvas> element define?",
+            "answer1": "A container for multimedia content",
+            "answer2": "A container for graphics",
+            "answer3": "A container for JavaScript",
+            "correctAnswer": "A container for graphics"
+          },
+          {
+            "id": 68,
+            "question": "In HTML, which tag is used to define a table header?",
+            "answer1": "<head>",
+            "answer2": "<tableheader>",
+            "answer3": "<th>",
+            "correctAnswer": "<th>"
+          },
+          {
+            "id": 69,
+            "question": "What is the correct HTML for creating a hyperlink?",
+            "answer1": "<a src='https://www.example.com'>Link</a>",
+            "answer2": "<a url='https://www.example.com'>Link</a>",
+            "answer3": "<a href='https://www.example.com'>Link</a>",
+            "correctAnswer": "<a href='https://www.example.com'>Link</a>"
+          },
+          {
+            "id": 70,
+            "question": "What is the correct HTML element for inserting a horizontal rule?",
+            "answer1": "<line>",
+            "answer2": "<hr>",
+            "answer3": "<linebreak>",
+            "correctAnswer": "<hr>"
+          },
+          {
+            "id": 71,
+            "question": "What is the correct HTML element for creating a numeric input field?",
+            "answer1": "<input type='number'>",
+            "answer2": "<input type='numeric'>",
+            "answer3": "<input type='text' pattern='[0-9]'>",
+            "correctAnswer": "<input type='number'>"
+          },
+          {
+            "id": 72,
+            "question": "In HTML, which tag is used to define a definition list?",
+            "answer1": "<ol>",
+            "answer2": "<ul>",
+            "answer3": "<dl>",
+            "correctAnswer": "<dl>"
+          },
+          {
+            "id": 73,
+            "question": "What is the correct HTML element for creating a text input field?",
+            "answer1": "<input type='textfield'>",
+            "answer2": "<input type='text'>",
+            "answer3": "<textfield>",
+            "correctAnswer": "<input type='text'>"
+          },
+          {
+            "id": 74,
+            "question": "What is the correct HTML element for inserting an email address?",
+            "answer1": "<a>email@example.com</a>",
+            "answer2": "<mail>email@example.com</mail>",
+            "answer3": "<input type='email' value='email@example.com'>",
+            "correctAnswer": "<input type='email' value='email@example.com'>"
+          },
+          {
+            "id": 75,
+            "question": "Which HTML element defines the title of a work (e.g., a book, a song, or a movie)?",
+            "answer1": "<headline>",
+            "answer2": "<title>",
+            "answer3": "<heading>",
+            "correctAnswer": "<title>"
+          },
+          {
+            "id": 76,
+            "question": "What is the correct HTML element for creating a radio button?",
+            "answer1": "<input type='radio'>",
+            "answer2": "<input type='button'>",
+            "answer3": "<radio>",
+            "correctAnswer": "<input type='radio'>"
+          },
+          {
+            "id": 77,
+            "question": "Which HTML element defines a section in a document?",
+            "answer1": "<section>",
+            "answer2": "<div>",
+            "answer3": "<article>",
+            "correctAnswer": "<section>"
+          },
+          {
+            "id": 78,
+            "question": "What is the correct HTML element for inserting a video?",
+            "answer1": "<media>",
+            "answer2": "<video>",
+            "answer3": "<movie>",
+            "correctAnswer": "<video>"
+          },
+          {
+            "id": 79,
+            "question": "In HTML, which tag is used to define a list item?",
+            "answer1": "<li>",
+            "answer2": "<ul>",
+            "answer3": "<ol>",
+            "correctAnswer": "<li>"
+          },
+          {
+            "id": 80,
+            "question": "What is the correct HTML element to define emphasized text?",
+            "answer1": "<em>",
+            "answer2": "<italic>",
+            "answer3": "<strong>",
+            "correctAnswer": "<em>"
+          },
+          {
+            "id": 81,
+            "question": "Which HTML attribute specifies the width of an image?",
+            "answer1": "width",
+            "answer2": "size",
+            "answer3": "height",
+            "correctAnswer": "width"
+          },
+          {
+            "id": 82,
+            "question": "What is the correct HTML element for inserting a line break?",
+            "answer1": "<linebreak>",
+            "answer2": "<br>",
+            "answer3": "<lb>",
+            "correctAnswer": "<br>"
+          },
+          {
+            "id": 83,
+            "question": "What is the correct HTML for creating a hyperlink that links to an email address?",
+            "answer1": "<a href='email@example.com'>Email me</a>",
+            "answer2": "<a href='mailto:email@example.com'>Email me</a>",
+            "answer3": "<mail>email@example.com</mail>",
+            "correctAnswer": "<a href='mailto:email@example.com'>Email me</a>"
+          },
+          {
+            "id": 84,
+            "question": "What does the HTML <canvas> element define?",
+            "answer1": "A container for multimedia content",
+            "answer2": "A container for graphics",
+            "answer3": "A container for JavaScript",
+            "correctAnswer": "A container for graphics"
+          },
+          {
+            "id": 85,
+            "question": "In HTML, which tag is used to define a table header?",
+            "answer1": "<head>",
+            "answer2": "<tableheader>",
+            "answer3": "<th>",
+            "correctAnswer": "<th>"
+          },
+          {
+            "id": 86,
+            "question": "What is the correct HTML for creating a hyperlink?",
+            "answer1": "<a src='https://www.example.com'>Link</a>",
+            "answer2": "<a url='https://www.example.com'>Link</a>",
+            "answer3": "<a href='https://www.example.com'>Link</a>",
+            "correctAnswer": "<a href='https://www.example.com'>Link</a>"
+          },
+          {
+            "id": 87,
+            "question": "What is the correct HTML element for inserting a horizontal rule?",
+            "answer1": "<line>",
+            "answer2": "<hr>",
+            "answer3": "<linebreak>",
+            "correctAnswer": "<hr>"
+          },
+          {
+            "id": 88,
+            "question": "What is the correct HTML for creating a numeric input field?",
+            "answer1": "<input type='number'>",
+            "answer2": "<input type='numeric'>",
+            "answer3": "<input type='text' pattern='[0-9]'>",
+            "correctAnswer": "<input type='number'>"
+          },
+          {
+            "id": 89,
+            "question": "In HTML, which tag is used to define a definition list?",
+            "answer1": "<ol>",
+            "answer2": "<ul>",
+            "answer3": "<dl>",
+            "correctAnswer": "<dl>"
+          },
+          {
+            "id": 90,
+            "question": "What is the correct HTML element for creating a text input field?",
+            "answer1": "<input type='textfield'>",
+            "answer2": "<input type='text'>",
+            "answer3": "<textfield>",
+            "correctAnswer": "<input type='text'>"
+          },
+          {
+            "id": 91,
+            "question": "What is the correct HTML element for inserting an email address?",
+            "answer1": "<a>email@example.com</a>",
+            "answer2": "<mail>email@example.com</mail>",
+            "answer3": "<input type='email' value='email@example.com'>",
+            "correctAnswer": "<input type='email' value='email@example.com'>"
+          },
+          {
+            "id": 92,
+            "question": "Which HTML element defines the title of a work (e.g., a book, a song, or a movie)?",
+            "answer1": "<headline>",
+            "answer2": "<title>",
+            "answer3": "<heading>",
+            "correctAnswer": "<title>"
+          },
+          {
+            "id": 93,
+            "question": "What is the correct HTML element for creating a radio button?",
+            "answer1": "<input type='radio'>",
+            "answer2": "<input type='button'>",
+            "answer3": "<radio>",
+            "correctAnswer": "<input type='radio'>"
+          },
+          {
+            "id": 94,
+            "question": "Which HTML element defines a section in a document?",
+            "answer1": "<section>",
+            "answer2": "<div>",
+            "answer3": "<article>",
+            "correctAnswer": "<section>"
+          },
+          {
+            "id": 95,
+            "question": "What is the correct HTML element for inserting a video?",
+            "answer1": "<media>",
+            "answer2": "<video>",
+            "answer3": "<movie>",
+            "correctAnswer": "<video>"
+          },
+          {
+            "id": 96,
+            "question": "In HTML, which tag is used to define a list item?",
+            "answer1": "<li>",
+            "answer2": "<ul>",
+            "answer3": "<ol>",
+            "correctAnswer": "<li>"
+          },
+          {
+            "id": 97,
+            "question": "What is the correct HTML element to define emphasized text?",
+            "answer1": "<em>",
+            "answer2": "<italic>",
+            "answer3": "<strong>",
+            "correctAnswer": "<em>"
+          },
+          {
+            "id": 98,
+            "question": "Which HTML attribute specifies the width of an image?",
+            "answer1": "width",
+            "answer2": "size",
+            "answer3": "height",
+            "correctAnswer": "width"
+          },
+          {
+            "id": 99,
+            "question": "What is the correct HTML element for inserting a line break?",
+            "answer1": "<linebreak>",
+            "answer2": "<br>",
+            "answer3": "<lb>",
+            "correctAnswer": "<br>"
+          },
+          {
+            "id": 100,
+            "question": "What is the correct HTML for creating a hyperlink that links to an email address?",
+            "answer1": "<a href='email@example.com'>Email me</a>",
+            "answer2": "<a href='mailto:email@example.com'>Email me</a>",
+            "answer3": "<mail>email@example.com</mail>",
+            "correctAnswer": "<a href='mailto:email@example.com'>Email me</a>"
+          }
+      ]
+      
+}

@@ -1,0 +1,859 @@
+{
+    "JavascriptQuestions": [
+        {
+          "id": 6,
+          "question": "What is the purpose of the 'this' keyword in JavaScript?",
+          "answer1": "It refers to the current HTML element in event handling",
+          "answer2": "It refers to the global window object",
+          "answer3": "It refers to the parent function of the current function",
+          "answer4": "It refers to the current object on which a method is being called",
+          "correctAnswer": "It refers to the current object on which a method is being called"
+        },
+        {
+          "id": 7,
+          "question": "How can you convert a string to all uppercase letters in JavaScript?",
+          "answer1": "string.toUpperCase()",
+          "answer2": "string.toUpper()",
+          "answer3": "string.upperCase()",
+          "answer4": "string.case('upper')",
+          "correctAnswer": "string.toUpperCase()"
+        },
+        {
+          "id": 8,
+          "question": "Which method is used to add one or more elements to the end of an array in JavaScript?",
+          "answer1": "array.append()",
+          "answer2": "array.add()",
+          "answer3": "array.push()",
+          "answer4": "array.concat()",
+          "correctAnswer": "array.push()"
+        },
+        {
+          "id": 9,
+          "question": "What is the result of the expression '3' + 2 in JavaScript?",
+          "answer1": "5",
+          "answer2": "32",
+          "answer3": "Error",
+          "answer4": "NaN",
+          "correctAnswer": "32"
+        },
+        {
+          "id": 10,
+          "question": "Which statement is used to exit or end a loop in JavaScript?",
+          "answer1": "return",
+          "answer2": "exit",
+          "answer3": "break",
+          "answer4": "continue",
+          "correctAnswer": "break"
+        },
+        {
+          "id": 11,
+          "question": "How do you access the last element of an array?",
+          "answer1": "array[length]",
+          "answer2": "array[last]",
+          "answer3": "array[array.length-1]",
+          "answer4": "array[-1]",
+          "correctAnswer": "array[array.length-1]"
+        },
+        {
+          "id": 12,
+          "question": "What is the difference between '==' and '===' in JavaScript?",
+          "answer1": "'==' performs a deep comparison, while '===' performs a shallow comparison",
+          "answer2": "'==' only compares values, while '===' compares both values and types",
+          "answer3": "'==' is used for strict equality, while '===' is used for loose equality",
+          "answer4": "'==' and '===' are interchangeable in JavaScript",
+          "correctAnswer": "'==' only compares values, while '===' compares both values and types"
+        },
+        {
+          "id": 13,
+          "question": "Which function is used to parse a string and return an integer in JavaScript?",
+          "answer1": "parseInt()",
+          "answer2": "stringToInt()",
+          "answer3": "parseInteger()",
+          "answer4": "intParse()",
+          "correctAnswer": "parseInt()"
+        },
+        {
+          "id": 14,
+          "question": "What is the correct way to add a comment in JavaScript?",
+          "answer1": "//This is a comment",
+          "answer2": "/* This is a comment */",
+          "answer3": "<!-- This is a comment -->",
+          "answer4": "# This is a comment",
+          "correctAnswer": "//This is a comment"
+        },
+        {
+          "id": 15,
+          "question": "Which array method is used to remove the last element from an array and return that element?",
+          "answer1": "array.pop()",
+          "answer2": "array.shift()",
+          "answer3": "array.splice()",
+          "answer4": "array.removeLast()",
+          "correctAnswer": "array.pop()"
+        },
+        {
+          "id": 16,
+          "question": "What does the 'NaN' stand for in JavaScript?",
+          "answer1": "Not a Name",
+          "answer2": "Null and Negative",
+          "answer3": "Not a Number",
+          "answer4": "Negative and Null",
+          "correctAnswer": "Not a Number"
+        },
+        {
+          "id": 17,
+          "question": "Which method is used to schedule a function to be executed after a specified time interval?",
+          "answer1": "setInterval()",
+          "answer2": "setTimeout()",
+          "answer3": "setTime()",
+          "answer4": "setDelay()",
+          "correctAnswer": "setTimeout()"
+        },
+        {
+          "id": 18,
+          "question": "What is the 'splice()' method used for in JavaScript?",
+          "answer1": "To remove elements from the beginning of an array",
+          "answer2": "To add elements to the end of an array",
+          "answer3": "To remove elements from an array and replace them with new elements",
+          "answer4": "To sort the elements of an array",
+          "correctAnswer": "To remove elements from an array and replace them with new elements"
+        },
+        {
+          "id": 19,
+          "question": "What is the use of the 'map()' method in JavaScript?",
+          "answer1": "To iterate over the elements of an array and modify them",
+          "answer2": "To check if all elements of an array pass a certain condition",
+          "answer3": "To join all elements of an array into a single string",
+          "answer4": "To filter elements that meet a specific condition",
+          "correctAnswer": "To iterate over the elements of an array and modify them"
+        },
+        {
+          "id": 20,
+          "question": "What is the purpose of 'JSON.parse()' in JavaScript?",
+          "answer1": "To convert a JavaScript object to a JSON string",
+          "answer2": "To convert a JSON string to a JavaScript object",
+          "answer3": "To stringify a JavaScript object",
+          "answer4": "To remove a property from a JavaScript object",
+          "correctAnswer": "To convert a JSON string to a JavaScript object"
+        },
+        {
+            "id": 21,
+            "question": "What is the purpose of the 'callee' property in JavaScript?",
+            "answer1": "To store the current function's name",
+            "answer2": "To access the arguments of the current function",
+            "answer3": "To refer to the currently executing function inside a function",
+            "answer4": "To access the prototype of the current object",
+            "correctAnswer": "To refer to the currently executing function inside a function"
+          },
+          {
+            "id": 22,
+            "question": "What is an immediately-invoked function expression (IIFE) in JavaScript?",
+            "answer1": "A function that executes automatically when it is defined",
+            "answer2": "A function that is defined inside another function",
+            "answer3": "A function that is executed only when an event occurs",
+            "answer4": "A function that calls itself using recursion",
+            "correctAnswer": "A function that executes automatically when it is defined"
+          },
+          {
+            "id": 23,
+            "question": "How do you declare a constant variable in JavaScript?",
+            "answer1": "const myVar;",
+            "answer2": "constant myVar;",
+            "answer3": "var myVar = const;",
+            "answer4": "const myVar = value;",
+            "correctAnswer": "const myVar = value;"
+          },
+          {
+            "id": 24,
+            "question": "What is the result of the expression '10' == 10 in JavaScript?",
+            "answer1": "true",
+            "answer2": "false",
+            "answer3": "NaN",
+            "answer4": "TypeError",
+            "correctAnswer": "true"
+          },
+          {
+            "id": 25,
+            "question": "Which array method is used to create a new array with the results of calling a provided function on every element in the array?",
+            "answer1": "array.forEach()",
+            "answer2": "array.map()",
+            "answer3": "array.filter()",
+            "answer4": "array.reduce()",
+            "correctAnswer": "array.map()"
+          },
+          {
+            "id": 26,
+            "question": "What does the 'let' keyword do in JavaScript?",
+            "answer1": "Declares a variable with function scope",
+            "answer2": "Declares a constant variable",
+            "answer3": "Declares a variable with block scope",
+            "answer4": "Declares a global variable",
+            "correctAnswer": "Declares a variable with block scope"
+          },
+          {
+            "id": 27,
+            "question": "What is the purpose of the 'continue' statement in JavaScript?",
+            "answer1": "To exit the loop",
+            "answer2": "To skip the current iteration of the loop and continue with the next iteration",
+            "answer3": "To pause the execution of the loop",
+            "answer4": "To execute the loop indefinitely",
+            "correctAnswer": "To skip the current iteration of the loop and continue with the next iteration"
+          },
+          {
+            "id": 28,
+            "question": "Which method is used to remove the first element from an array and return that element?",
+            "answer1": "array.pop()",
+            "answer2": "array.shift()",
+            "answer3": "array.slice()",
+            "answer4": "array.unshift()",
+            "correctAnswer": "array.shift()"
+          },
+          {
+            "id": 29,
+            "question": "What is the purpose of the 'catch' block in a try-catch statement?",
+            "answer1": "To execute code regardless of whether an error occurred or not",
+            "answer2": "To handle and process the caught error",
+            "answer3": "To prevent any error from occurring in the try block",
+            "answer4": "To skip the catch block and execute the finally block directly",
+            "correctAnswer": "To handle and process the caught error"
+          },
+          {
+            "id": 30,
+            "question": "What is the difference between 'let' and 'var' in JavaScript?",
+            "answer1": "'let' is used for function scope, while 'var' is used for block scope",
+            "answer2": "'let' is used for block scope, while 'var' is used for function scope",
+            "answer3": "'let' cannot be reassigned, while 'var' can be reassigned",
+            "answer4": "'let' is used for constants, while 'var' is used for variables",
+            "correctAnswer": "'let' is used for block scope, while 'var' is used for function scope"
+          },
+          {
+            "id": 31,
+            "question": "Which method is used to sort the elements of an array in JavaScript?",
+            "answer1": "array.sort()",
+            "answer2": "array.order()",
+            "answer3": "array.arrange()",
+            "answer4": "array.group()",
+            "correctAnswer": "array.sort()"
+          },
+          {
+            "id": 32,
+            "question": "What is the purpose of the 'finally' block in a try-catch statement?",
+            "answer1": "To execute code regardless of whether an error occurred or not",
+            "answer2": "To handle and process the caught error",
+            "answer3": "To prevent any error from occurring in the try block",
+            "answer4": "To skip the finally block if the try block throws an error",
+            "correctAnswer": "To execute code regardless of whether an error occurred or not"
+          },
+          {
+            "id": 33,
+            "question": "What does the 'Array.isArray()' method check in JavaScript?",
+            "answer1": "Whether the given value is an array or not",
+            "answer2": "Whether the array is empty or not",
+            "answer3": "Whether the array contains only numbers",
+            "answer4": "Whether the array is sorted or not",
+            "correctAnswer": "Whether the given value is an array or not"
+          },
+          {
+            "id": 34,
+            "question": "What is the purpose of the 'export' keyword in JavaScript?",
+            "answer1": "To import functions from another script",
+            "answer2": "To define a module that can be imported in another script",
+            "answer3": "To allow access to global variables from other scripts",
+            "answer4": "To create a backup of the current script",
+            "correctAnswer": "To define a module that can be imported in another script"
+          },
+          {
+            "id": 35,
+            "question": "What is the result of the expression '2' + 2 in JavaScript?",
+            "answer1": "4",
+            "answer2": "22",
+            "answer3": "TypeError",
+            "answer4": "NaN",
+            "correctAnswer": "22"
+          },
+          {
+            "id": 36,
+            "question": "How do you declare a JavaScript function?",
+            "answer1": "function myFunction()",
+            "answer2": "myFunction = function()",
+            "answer3": "const function = myFunction()",
+            "answer4": "const myFunction = function()",
+            "correctAnswer": "function myFunction()"
+          },
+          {
+            "id": 37,
+            "question": "Which statement is used to throw a custom error in JavaScript?",
+            "answer1": "error()",
+            "answer2": "throw new Error()",
+            "answer3": "throw Error()",
+            "answer4": "catch new Error()",
+            "correctAnswer": "throw new Error()"
+          },
+          {
+            "id": 38,
+            "question": "What is the use of the 'concat()' method in JavaScript?",
+            "answer1": "To combine two or more arrays and return a new array",
+            "answer2": "To check if an array includes a specific element",
+            "answer3": "To remove the first element from an array",
+            "answer4": "To add one or more elements to the end of an array",
+            "correctAnswer": "To combine two or more arrays and return a new array"
+          },
+          {
+            "id": 39,
+            "question": "What does the 'export default' syntax do in a JavaScript module?",
+            "answer1": "Exports the entire module as the default export",
+            "answer2": "Exports the first function in the module as the default export",
+            "answer3": "Exports a variable as the default export",
+            "answer4": "Exports a class as the default export",
+            "correctAnswer": "Exports the entire module as the default export"
+          },
+          {
+            "id": 40,
+            "question": "Which of the following is NOT a valid JavaScript loop?",
+            "answer1": "for loop",
+            "answer2": "while loop",
+            "answer3": "do-while loop",
+            "answer4": "foreach loop",
+            "correctAnswer": "foreach loop"
+          },
+          {
+            "id": 41,
+            "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+            "answer1": "To return an array of all enumerable properties of an object",
+            "answer2": "To return an array of all own properties of an object",
+            "answer3": "To return an array of all values of an object",
+            "answer4": "To return an array of all keys of an object",
+            "correctAnswer": "To return an array of all own properties of an object"
+          },
+          {
+            "id": 42,
+            "question": "What is the result of the expression 'false && true' in JavaScript?",
+            "answer1": "true",
+            "answer2": "false",
+            "answer3": "NaN",
+            "answer4": "TypeError",
+            "correctAnswer": "false"
+          },
+          {
+            "id": 43,
+            "question": "Which of the following is the correct way to create a new object in JavaScript?",
+            "answer1": "const obj = Object.create(Object.prototype)",
+            "answer2": "const obj = new Object()",
+            "answer3": "const obj = {}",
+            "answer4": "All of the above",
+            "correctAnswer": "All of the above"
+          },
+          {
+            "id": 44,
+            "question": "What is the purpose of the 'charAt()' method in JavaScript?",
+            "answer1": "To remove the first character from a string",
+            "answer2": "To replace a character in a string",
+            "answer3": "To check if a string contains a specific character",
+            "answer4": "To return the character at a specified index in a string",
+            "correctAnswer": "To return the character at a specified index in a string"
+          },
+          {
+            "id": 45,
+            "question": "What is the purpose of the 'Array.from()' method in JavaScript?",
+            "answer1": "To create a new array with all elements that pass a test",
+            "answer2": "To create a new array from an existing array by mapping each element",
+            "answer3": "To create a new array from an array-like or iterable object",
+            "answer4": "To create a new array by joining two or more arrays",
+            "correctAnswer": "To create a new array from an array-like or iterable object"
+          },
+          {
+            "id": 46,
+            "question": "What does the 'startsWith()' method check in JavaScript?",
+            "answer1": "Whether a string starts with a specified character",
+            "answer2": "Whether a string contains a specified substring",
+            "answer3": "Whether a string ends with a specified character",
+            "answer4": "Whether a string is empty or not",
+            "correctAnswer": "Whether a string starts with a specified character"
+          },
+          {
+            "id": 47,
+            "question": "Which array method is used to check if at least one element in the array passes a test?",
+            "answer1": "array.some()",
+            "answer2": "array.every()",
+            "answer3": "array.any()",
+            "answer4": "array.each()",
+            "correctAnswer": "array.some()"
+          },
+          {
+            "id": 48,
+            "question": "What is the purpose of the 'Math.random()' function in JavaScript?",
+            "answer1": "To generate a random integer between 1 and 10",
+            "answer2": "To generate a random number between 0 and 1",
+            "answer3": "To generate a random number between 1 and 100",
+            "answer4": "To generate a random integer between 0 and 100",
+            "correctAnswer": "To generate a random number between 0 and 1"
+          },
+          {
+            "id": 49,
+            "question": "What is the result of the expression '5 + '5' + 5' in JavaScript?",
+            "answer1": "15",
+            "answer2": "555",
+            "answer3": "10",
+            "answer4": "TypeError",
+            "correctAnswer": "555"
+          },
+          {
+            "id": 50,
+            "question": "Which array method is used to remove elements from an array based on a condition and return a new array?",
+            "answer1": "array.reduce()",
+            "answer2": "array.map()",
+            "answer3": "array.filter()",
+            "answer4": "array.every()",
+            "correctAnswer": "array.filter()"
+          },
+          {
+            "id": 51,
+            "question": "What is the purpose of the 'Number()' function in JavaScript?",
+            "answer1": "To convert a number to a string",
+            "answer2": "To convert a string to a number",
+            "answer3": "To round a number to the nearest integer",
+            "answer4": "To find the square root of a number",
+            "correctAnswer": "To convert a string to a number"
+          },
+          {
+            "id": 52,
+            "question": "What is the result of the expression 'null == undefined' in JavaScript?",
+            "answer1": "true",
+            "answer2": "false",
+            "answer3": "NaN",
+            "answer4": "TypeError",
+            "correctAnswer": "true"
+          },
+          {
+            "id": 53,
+            "question": "Which of the following is NOT a valid way to create a JavaScript array?",
+            "answer1": "const arr = []",
+            "answer2": "const arr = new Array()",
+            "answer3": "const arr = Array()",
+            "answer4": "const arr = {}",
+            "correctAnswer": "const arr = {}"
+          },
+          {
+            "id": 54,
+            "question": "What is the purpose of the 'Array.isArray()' method in JavaScript?",
+            "answer1": "To check if an array includes a specific element",
+            "answer2": "To return an array of all enumerable properties of an object",
+            "answer3": "To return an array of all own properties of an object",
+            "answer4": "To check if a value is an array or not",
+            "correctAnswer": "To check if a value is an array or not"
+          },
+          {
+            "id": 55,
+            "question": "What is the result of the expression 'typeof null' in JavaScript?",
+            "answer1": "null",
+            "answer2": "object",
+            "answer3": "undefined",
+            "answer4": "string",
+            "correctAnswer": "object"
+          },
+          {
+            "id": 56,
+            "question": "What is the purpose of the 'Promise' object in JavaScript?",
+            "answer1": "To handle asynchronous operations and represent a value that may not be available yet",
+            "answer2": "To create a new instance of an object",
+            "answer3": "To create a new function",
+            "answer4": "To handle synchronous operations",
+            "correctAnswer": "To handle asynchronous operations and represent a value that may not be available yet"
+          },
+          {
+            "id": 57,
+            "question": "What is the difference between 'let' and 'const' in JavaScript?",
+            "answer1": "'let' can be reassigned, while 'const' cannot be reassigned",
+            "answer2": "'let' is used for block scope, while 'const' is used for function scope",
+            "answer3": "'let' is used for constants, while 'const' is used for variables",
+            "answer4": "'let' is used for function scope, while 'const' is used for block scope",
+            "correctAnswer": "'let' can be reassigned, while 'const' cannot be reassigned"
+          },
+          {
+            "id": 58,
+            "question": "What does the 'Array.prototype.indexOf()' method return if the element is not found in the array?",
+            "answer1": "-1",
+            "answer2": "0",
+            "answer3": "null",
+            "answer4": "undefined",
+            "correctAnswer": "-1"
+          },
+          {
+            "id": 59,
+            "question": "What is the purpose of the 'forEach()' method in JavaScript?",
+            "answer1": "To add elements to the end of an array",
+            "answer2": "To check if at least one element in the array passes a test",
+            "answer3": "To create a new array from an existing array by mapping each element",
+            "answer4": "To iterate over the elements of an array and perform a specified action",
+            "correctAnswer": "To iterate over the elements of an array and perform a specified action"
+          },
+          {
+            "id": 60,
+            "question": "What is the result of the expression 'true && false' in JavaScript?",
+            "answer1": "true",
+            "answer2": "false",
+            "answer3": "NaN",
+            "answer4": "TypeError",
+            "correctAnswer": "false"
+          },
+          {
+            "id": 61,
+            "question": "What is the purpose of the 'Object.assign()' method in JavaScript?",
+            "answer1": "To assign a value to an object property",
+            "answer2": "To create a new object with the specified properties",
+            "answer3": "To combine the values of two or more objects into a new object",
+            "answer4": "To check if an object has a specific property",
+            "correctAnswer": "To combine the values of two or more objects into a new object"
+          },
+          {
+            "id": 62,
+            "question": "What is the purpose of the 'String.prototype.trim()' method in JavaScript?",
+            "answer1": "To remove all spaces from a string",
+            "answer2": "To remove leading and trailing spaces from a string",
+            "answer3": "To convert a string to lowercase",
+            "answer4": "To convert a string to uppercase",
+            "correctAnswer": "To remove leading and trailing spaces from a string"
+          },
+          {
+            "id": 63,
+            "question": "What does the 'break' statement do in JavaScript?",
+            "answer1": "It exits the loop or switch statement",
+            "answer2": "It continues to the next iteration of the loop",
+            "answer3": "It throws an error",
+            "answer4": "It pauses the execution of the code",
+            "correctAnswer": "It exits the loop or switch statement"
+          },
+          {
+            "id": 64,
+            "question": "Which method is used to remove the last element from an array and return that element?",
+            "answer1": "array.pop()",
+            "answer2": "array.shift()",
+            "answer3": "array.slice()",
+            "answer4": "array.unshift()",
+            "correctAnswer": "array.pop()"
+          },
+          {
+            "id": 65,
+            "question": "What is the purpose of the 'super' keyword in JavaScript?",
+            "answer1": "To call a function with a specific 'this' value",
+            "answer2": "To access the parent class constructor",
+            "answer3": "To create a new instance of a class",
+            "answer4": "To check if a variable is defined",
+            "correctAnswer": "To access the parent class constructor"
+          },
+          {
+            "id": 66,
+            "question": "What is the result of the expression '3 + 2 * 4' in JavaScript?",
+            "answer1": "20",
+            "answer2": "11",
+            "answer3": "24",
+            "answer4": "15",
+            "correctAnswer": "11"
+          },
+          {
+            "id": 67,
+            "question": "What is the purpose of the 'Date' object in JavaScript?",
+            "answer1": "To create a new date and time",
+            "answer2": "To perform mathematical operations",
+            "answer3": "To handle asynchronous operations",
+            "answer4": "To convert strings to numbers",
+            "correctAnswer": "To create a new date and time"
+          },
+          {
+            "id": 68,
+            "question": "What does the 'Array.prototype.pop()' method do in JavaScript?",
+            "answer1": "Removes the first element from an array",
+            "answer2": "Removes the last element from an array",
+            "answer3": "Adds elements to the beginning of an array",
+            "answer4": "Adds elements to the end of an array",
+            "correctAnswer": "Removes the last element from an array"
+          },
+          {
+            "id": 69,
+            "question": "What is the purpose of the 'Array.prototype.reduce()' method in JavaScript?",
+            "answer1": "To remove elements from an array based on a condition and return a new array",
+            "answer2": "To iterate over the elements of an array and perform a specified action",
+            "answer3": "To create a new array with the results of calling a provided function on every element",
+            "answer4": "To reduce the elements of an array to a single value",
+            "correctAnswer": "To reduce the elements of an array to a single value"
+          },
+          {
+            "id": 70,
+            "question": "What does the 'else' keyword do in JavaScript?",
+            "answer1": "It defines a block of code that should be executed if the condition is true",
+            "answer2": "It defines a block of code that should be executed if the condition is false",
+            "answer3": "It defines a block of code that should be executed repeatedly",
+            "answer4": "It defines a block of code that should be executed regardless of the condition",
+            "correctAnswer": "It defines a block of code that should be executed if the condition is false"
+          },
+          {
+            "id": 71,
+            "question": "What is the purpose of the 'toLocaleString()' method in JavaScript?",
+            "answer1": "To convert a number to a string with localized formatting",
+            "answer2": "To convert a string to a number with localized formatting",
+            "answer3": "To convert a date to a string with localized formatting",
+            "answer4": "To convert a string to a date with localized formatting",
+            "correctAnswer": "To convert a number to a string with localized formatting"
+          },
+          {
+            "id": 72,
+            "question": "What is the purpose of the 'Array.prototype.slice()' method in JavaScript?",
+            "answer1": "To remove elements from an array based on a condition and return a new array",
+            "answer2": "To iterate over the elements of an array and perform a specified action",
+            "answer3": "To create a new array with the results of calling a provided function on every element",
+            "answer4": "To extract a section of an array and return a new array",
+            "correctAnswer": "To extract a section of an array and return a new array"
+          },
+          {
+            "id": 73,
+            "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+            "answer1": "To check if a value is null",
+            "answer2": "To check the type of a variable or value",
+            "answer3": "To convert a value to a string",
+            "answer4": "To convert a value to a number",
+            "correctAnswer": "To check the type of a variable or value"
+          },
+          {
+            "id": 74,
+            "question": "What is the result of the expression '2 + '2' + 2' in JavaScript?",
+            "answer1": "22",
+            "answer2": "4",
+            "answer3": "TypeError",
+            "answer4": "NaN",
+            "correctAnswer": "22"
+          },
+          {
+            "id": 75,
+            "question": "What is the purpose of the 'delete' operator in JavaScript?",
+            "answer1": "To delete a function from an object",
+            "answer2": "To delete a property from an object",
+            "answer3": "To remove the first element from an array",
+            "answer4": "To remove the last element from an array",
+            "correctAnswer": "To delete a property from an object"
+          },
+          {
+            "id": 76,
+            "question": "What is the purpose of the 'Array.prototype.join()' method in JavaScript?",
+            "answer1": "To add elements to the end of an array",
+            "answer2": "To remove elements from an array based on a condition and return a new array",
+            "answer3": "To create a string from an array by joining all elements with a specified separator",
+            "answer4": "To convert a string to a date",
+            "correctAnswer": "To create a string from an array by joining all elements with a specified separator"
+          },
+          {
+            "id": 77,
+            "question": "What is the result of the expression 'true || false' in JavaScript?",
+            "answer1": "true",
+            "answer2": "false",
+            "answer3": "NaN",
+            "answer4": "TypeError",
+            "correctAnswer": "true"
+          },
+          {
+            "id": 78,
+            "question": "What does the 'Array.prototype.push()' method do in JavaScript?",
+            "answer1": "Removes the first element from an array",
+            "answer2": "Removes the last element from an array",
+            "answer3": "Adds elements to the beginning of an array",
+            "answer4": "Adds elements to the end of an array",
+            "correctAnswer": "Adds elements to the end of an array"
+          },
+          {
+            "id": 79,
+            "question": "What is the purpose of the 'Object.prototype.hasOwnProperty()' method in JavaScript?",
+            "answer1": "To check if an object has a specific property",
+            "answer2": "To check if an array includes a specific element",
+            "answer3": "To check if a value is an array or not",
+            "answer4": "To check if a value is null",
+            "correctAnswer": "To check if an object has a specific property"
+          },
+          {
+            "id": 80,
+            "question": "What does the 'continue' statement do in JavaScript?",
+            "answer1": "It exits the loop or switch statement",
+            "answer2": "It continues to the next iteration of the loop",
+            "answer3": "It throws an error",
+            "answer4": "It pauses the execution of the code",
+            "correctAnswer": "It continues to the next iteration of the loop"
+          },
+          {
+            "id": 81,
+            "question": "What is the purpose of the 'Math.floor()' function in JavaScript?",
+            "answer1": "To round a number to the nearest integer",
+            "answer2": "To find the square root of a number",
+            "answer3": "To generate a random number between 0 and 1",
+            "answer4": "To convert a string to a number",
+            "correctAnswer": "To round a number to the nearest integer"
+          },
+          {
+            "id": 82,
+            "question": "What is the result of the expression 'typeof []' in JavaScript?",
+            "answer1": "array",
+            "answer2": "object",
+            "answer3": "undefined",
+            "answer4": "string",
+            "correctAnswer": "object"
+          },
+          {
+            "id": 83,
+            "question": "What is the purpose of the 'Math.ceil()' function in JavaScript?",
+            "answer1": "To round a number to the nearest integer",
+            "answer2": "To find the square root of a number",
+            "answer3": "To generate a random number between 0 and 1",
+            "answer4": "To round a number up to the next largest integer",
+            "correctAnswer": "To round a number up to the next largest integer"
+          },
+          {
+            "id": 84,
+            "question": "What is the purpose of the 'JSON.stringify()' method in JavaScript?",
+            "answer1": "To convert an object to a JSON string",
+            "answer2": "To convert a JSON string to an object",
+            "answer3": "To convert an array to a JSON string",
+            "answer4": "To convert a string to a JSON object",
+            "correctAnswer": "To convert an object to a JSON string"
+          },
+          {
+            "id": 85,
+            "question": "What is the result of the expression 'null || true' in JavaScript?",
+            "answer1": "true",
+            "answer2": "false",
+            "answer3": "NaN",
+            "answer4": "TypeError",
+            "correctAnswer": "true"
+          },
+          {
+            "id": 86,
+            "question": "What is the purpose of the 'Array.prototype.reverse()' method in JavaScript?",
+            "answer1": "To check if at least one element in the array passes a test",
+            "answer2": "To create a new array from an existing array by mapping each element",
+            "answer3": "To reverse the order of the elements in an array",
+            "answer4": "To create a new array with the results of calling a provided function on every element",
+            "correctAnswer": "To reverse the order of the elements in an array"
+          },
+          {
+            "id": 87,
+            "question": "What is the purpose of the 'isNaN()' function in JavaScript?",
+            "answer1": "To check if a value is null",
+            "answer2": "To check if a value is undefined",
+            "answer3": "To check if a value is an object",
+            "answer4": "To check if a value is not a number",
+            "correctAnswer": "To check if a value is not a number"
+          },
+          {
+            "id": 88,
+            "question": "What does the 'export' keyword do in JavaScript?",
+            "answer1": "To import functions from another script",
+            "answer2": "To define a module that can be imported in another script",
+            "answer3": "To allow access to global variables from other scripts",
+            "answer4": "To create a backup of the current script",
+            "correctAnswer": "To define a module that can be imported in another script"
+          },
+          {
+            "id": 89,
+            "question": "What is the purpose of the 'Array.prototype.unshift()' method in JavaScript?",
+            "answer1": "To add elements to the end of an array",
+            "answer2": "To remove the first element from an array",
+            "answer3": "To remove the last element from an array",
+            "answer4": "To add elements to the beginning of an array",
+            "correctAnswer": "To add elements to the beginning of an array"
+          },
+          {
+            "id": 90,
+            "question": "What is the purpose of the 'Math.pow()' function in JavaScript?",
+            "answer1": "To round a number to the nearest integer",
+            "answer2": "To find the square root of a number",
+            "answer3": "To raise a number to a specified power",
+            "answer4": "To convert a string to a number",
+            "correctAnswer": "To raise a number to a specified power"
+          },
+          {
+            "id": 91,
+            "question": "What is the result of the expression 'typeof NaN' in JavaScript?",
+            "answer1": "number",
+            "answer2": "NaN",
+            "answer3": "undefined",
+            "answer4": "string",
+            "correctAnswer": "number"
+          },
+          {
+            "id": 92,
+            "question": "What is the purpose of the 'decodeURI()' function in JavaScript?",
+            "answer1": "To encode a URI component",
+            "answer2": "To decode a URI component",
+            "answer3": "To remove leading and trailing spaces from a string",
+            "answer4": "To convert a string to lowercase",
+            "correctAnswer": "To decode a URI component"
+          },
+          {
+            "id": 93,
+            "question": "What does the 'default' keyword do in a JavaScript switch statement?",
+            "answer1": "It defines a block of code that should be executed if none of the cases match",
+            "answer2": "It defines a block of code that should be executed regardless of the condition",
+            "answer3": "It defines a block of code that should be executed if the case is not specified",
+            "answer4": "It defines a block of code that should be executed if the condition is false",
+            "correctAnswer": "It defines a block of code that should be executed if none of the cases match"
+          },
+          {
+            "id": 94,
+            "question": "What is the purpose of the 'String.prototype.replace()' method in JavaScript?",
+            "answer1": "To remove all spaces from a string",
+            "answer2": "To replace a specific substring with another substring",
+            "answer3": "To convert a string to lowercase",
+            "answer4": "To convert a string to uppercase",
+            "correctAnswer": "To replace a specific substring with another substring"
+          },
+          {
+            "id": 95,
+            "question": "What is the purpose of the 'JSON.parse()' method in JavaScript?",
+            "answer1": "To convert an object to a JSON string",
+            "answer2": "To convert a JSON string to an object",
+            "answer3": "To convert an array to a JSON string",
+            "answer4": "To convert a string to a JSON object",
+            "correctAnswer": "To convert a JSON string to an object"
+          },
+          {
+            "id": 96,
+            "question": "What is the purpose of the 'Math.abs()' function in JavaScript?",
+            "answer1": "To find the absolute value of a number",
+            "answer2": "To round a number to the nearest integer",
+            "answer3": "To generate a random number between 0 and 1",
+            "answer4": "To find the square root of a number",
+            "correctAnswer": "To find the absolute value of a number"
+          },
+          {
+            "id": 97,
+            "question": "What does the 'static' keyword do when used in a JavaScript class?",
+            "answer1": "It defines a static method that is callable on the class itself, not on instances",
+            "answer2": "It defines a method that is accessible only within the class",
+            "answer3": "It defines a method that is accessible only within instances of the class",
+            "answer4": "It defines a method that can be overridden by subclasses",
+            "correctAnswer": "It defines a static method that is callable on the class itself, not on instances"
+          },
+          {
+            "id": 98,
+            "question": "What is the purpose of the 'Array.prototype.includes()' method in JavaScript?",
+            "answer1": "To check if an array includes a specific element",
+            "answer2": "To add elements to the end of an array",
+            "answer3": "To remove the first element from an array",
+            "answer4": "To create a new array from an existing array by mapping each element",
+            "correctAnswer": "To check if an array includes a specific element"
+          },
+          {
+            "id": 99,
+            "question": "What is the result of the expression '3 + 2 + '5' + 1' in JavaScript?",
+            "answer1": "11",
+            "answer2": "555",
+            "answer3": "9",
+            "answer4": "TypeError",
+            "correctAnswer": "9551"
+          },
+          {
+            "id": 100,
+            "question": "What is the purpose of the 'Object.prototype.toString()' method in JavaScript?",
+            "answer1": "To check if an object has a specific property",
+            "answer2": "To return a string representation of the object",
+            "answer3": "To convert a string to a number",
+            "answer4": "To convert a number to a string",
+            "correctAnswer": "To return a string representation of the object"
+          }
+    ]
+}
